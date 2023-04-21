@@ -50,6 +50,8 @@ public class Student {
 		System.out.println("Student Object Constructed...");
 	}
 
+	// toString() - default behavior from  Object class - points the hexadecimal value of object as String
+	// override the method - Representation  object properties as a string  value
 	@Override
 	public String toString() {
 		return "Student [firstName=" + firstName + ", lastName=" + lastName + ", id=" + id + ", course=" + course + "]";
